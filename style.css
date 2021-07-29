@@ -1,0 +1,128 @@
+body{
+    margin:0;
+    padding:0;
+    font-family: 'Rubik', sans-serif;
+}
+h1{
+    font-size: 55px;
+    line-height: 150%;
+    text-align:start;
+}
+h2{
+    font-size: 40px;
+    font-weight: bold;
+}
+p{
+    line-height:30px;
+    font-size: 18px;
+    text-align:justify !important;
+}
+span{
+color:orange; 
+}
+header ul{
+    overflow: hidden;
+    list-style: none;
+}
+header ul li{
+    text-align: center;
+    display: inline;
+    float:right;
+    display: inline-block;
+}
+header ul li a{
+    text-decoration: none;
+    float: left;
+    padding: 10px 20px;
+    
+    margin-left: 15px;
+}
+.flax-section{
+    display: flex;
+    margin: 100px}
+.half-with{
+    width: 50%;
+    padding-left:5%;
+    padding-right: 5%;
+}
+.half-with img{
+    width:100%;
+}
+a.link-btn{
+    text-decoration: none;
+    background-image:linear-gradient(88.33deg, #FBA24F -7.64%, #FF1E1E 145.94%);
+    padding:15px 30px;
+    border-radius: 25px;
+    color:white;
+    font-size: 18px;
+    margin-top: 20px;
+    display: inline-block;
+}
+.about-area-barner{
+    background-image: url(shapes/7.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 10px
+}
+.about-area-barner p{
+    line-height: 35px;
+    font-size: 20px;
+
+}
+.about-img img{
+    width: 80%;
+}
+#recipies-continer{
+    width: 80%;
+    margin: auto;
+}
+.recipes-description{
+    width: 70%;
+    text-align:unset;
+    margin:auto;
+    
+}
+.recipes-description h1,p{
+    text-align: center;
+}
+
+.recipies-aria{
+    display: flex;
+    margin: 20px;
+    padding:30px
+}
+.recipies-items{
+    width: 350px;
+    height: 500px;
+    box-shadow:5px 2px 30px gray;
+    border-radius: 20px;
+    padding:10px;
+    margin: 15px;
+}
+.recipies-items img{
+    width: 100%;
+}
+.flow-us-ariea{
+    width: 70%;
+    margin: auto;
+    display: flex;
+    box-shadow: 10px 2px 30px thistle;
+    padding: 20px;
+    border-radius: 10px;
+    margin-top: 80px;
+    margin-bottom: 80px;
+    
+}
+
+.flow-items{
+    margin-left: 160px;
+}
+footer{
+    text-align: center;
+    background-color: black;
+    padding: 50px;
+    margin-top: 50px;
+}
+footer h2,h4{
+    color: darkslategray;
+}
